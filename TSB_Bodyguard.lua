@@ -1,3 +1,5 @@
+print("TSB Bodyguard script loaded!")
+
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 
