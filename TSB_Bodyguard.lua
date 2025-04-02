@@ -1,5 +1,4 @@
-print("TSB Bodyguard script loaded!")
-
+local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/Yepimdark/BodyguardScript.Lua/refs/heads/main/TSB_Bodyguard.lua"))()
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 
